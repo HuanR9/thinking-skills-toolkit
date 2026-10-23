@@ -1,0 +1,4 @@
+interface:
+  display_name: "人生设计 / Life Design"
+  short_description: "探索人生方向并设计低成本原型 / Explore directions and prototypes"
+  default_prompt: "使用 $life-design 陪我探索人生方向并设计可尝试的小实验。"

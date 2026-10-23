@@ -1,0 +1,4 @@
+interface:
+  display_name: "深度研究 / Deep Research"
+  short_description: "用可追溯证据研究演变并比较同行 / Research development and peers"
+  default_prompt: "使用 $deep-research 研究这个主题的演变，并与相关对象比较。"

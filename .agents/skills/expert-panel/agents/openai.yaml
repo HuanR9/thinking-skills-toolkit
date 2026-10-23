@@ -1,0 +1,4 @@
+interface:
+  display_name: "专家视角小组 / Expert Panel"
+  short_description: "用互补模拟视角分析复杂问题 / Analyze through simulated lenses"
+  default_prompt: "使用 $expert-panel 从互补视角分析这个复杂问题并综合建议。"

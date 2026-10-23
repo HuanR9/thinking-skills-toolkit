@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨领域迁移 / Cross-domain Transfer"
+  short_description: "从其他领域迁移机制并标注适用边界 / Transfer mechanisms with caveats"
+  default_prompt: "使用 $cross-domain-transfer 为这个问题寻找可迁移机制并说明失配风险。"

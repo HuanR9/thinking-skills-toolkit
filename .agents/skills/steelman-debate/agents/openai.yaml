@@ -1,0 +1,4 @@
+interface:
+  display_name: "最强论证比较 / Steelman Debate"
+  short_description: "比较明确选项各自最有力的论据 / Compare the strongest cases"
+  default_prompt: "使用 $steelman-debate 为这些选项分别提出最强论证并比较。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "优势与能量探索 / Talent Discovery"
+  short_description: "从真实经历探索优势与能量模式 / Explore strengths from experience"
+  default_prompt: "使用 $talent-discovery 通过多轮对话帮我梳理优势和能量模式。"

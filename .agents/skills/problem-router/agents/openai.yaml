@@ -1,0 +1,6 @@
+interface:
+  display_name: "问题路由器 / Problem Router"
+  short_description: "为中文与英文问题推荐合适的思维路径、说明原因与所需输入"
+  default_prompt: "使用 $problem-router / Use $problem-router 为我的请求推荐合适的思维路径。"
+policy:
+  allow_implicit_invocation: false

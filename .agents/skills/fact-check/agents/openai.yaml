@@ -1,0 +1,4 @@
+interface:
+  display_name: "事实核验 / Fact Check"
+  short_description: "核验具体主张并评估证据强弱 / Verify claims and assess evidence"
+  default_prompt: "使用 $fact-check 核验这项主张并说明证据和不确定性。"

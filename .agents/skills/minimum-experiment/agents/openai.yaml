@@ -1,0 +1,4 @@
+interface:
+  display_name: "最小实验 / Minimum Experiment"
+  short_description: "用低成本可逆测试检验关键假设 / Test assumptions with small experiments"
+  default_prompt: "使用 $minimum-experiment 为这个想法设计一个低成本、可逆的测试。"

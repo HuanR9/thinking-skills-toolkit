@@ -1,0 +1,4 @@
+interface:
+  display_name: "第一性原理 / First Principles"
+  short_description: "从事实目标约束重新推导方案 / Rebuild from facts and constraints"
+  default_prompt: "使用 $first-principles 从事实、目标和约束重新分析这个问题。"

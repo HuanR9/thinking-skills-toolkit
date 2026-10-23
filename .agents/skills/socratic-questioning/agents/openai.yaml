@@ -1,0 +1,4 @@
+interface:
+  display_name: "苏格拉底式提问 / Socratic Questioning"
+  short_description: "一次一个问题澄清真正的问题 / Clarify one question at a time"
+  default_prompt: "使用 $socratic-questioning 一次问我一个问题，帮我澄清这件事。"

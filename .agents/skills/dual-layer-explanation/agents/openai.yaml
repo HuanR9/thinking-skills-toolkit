@@ -1,0 +1,4 @@
+interface:
+  display_name: "双层解释 / Dual-layer Explanation"
+  short_description: "先通俗后专业地解释概念 / Explain concepts for two levels"
+  default_prompt: "使用 $dual-layer-explanation 先通俗、再专业地解释这个概念。"

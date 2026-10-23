@@ -1,0 +1,4 @@
+interface:
+  display_name: "逆向拆解 / Reverse Engineering"
+  short_description: "从具体样本提炼可迁移的设计原则 / Learn principles from an exemplar"
+  default_prompt: "使用 $reverse-engineering 拆解我提供的样本并提炼可迁移原则。"
