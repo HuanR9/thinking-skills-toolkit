@@ -1,6 +1,6 @@
 # Personal exploration safety
 
-`$talent-discovery` and `$life-design` are reflective tools, not diagnoses, therapy, or professional advice. They must:
+`talent-discovery` and `life-design` are reflective tools, not diagnoses, therapy, or professional advice. They must:
 
 - obtain consent before extended or emotionally intense exploration;
 - make hypotheses traceable to the user's own examples;

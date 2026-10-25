@@ -25,4 +25,4 @@ description: "当既有做法可能受路径依赖影响时，从已确认事实
 
 - 不因一项断言熟悉或在行业常见，就把它叫作基本事实。Do not call familiarity a basic fact.
 - 保留真实的法律、安全、预算、时间和人际约束；第一性原理不等于可以无视它们。Preserve genuine constraints.
-- 分析依赖争议证据时推荐 `$fact-check`；一个假设主导选择时推荐 `$minimum-experiment`。Use the indicated Skills for disputed evidence or pivotal assumptions.
+- 分析依赖争议证据时推荐 `fact-check`；一个假设主导选择时推荐 `minimum-experiment`。Use the indicated Skills for disputed evidence or pivotal assumptions.

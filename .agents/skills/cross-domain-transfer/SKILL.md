@@ -25,4 +25,4 @@ description: "为受约束的问题从远距离领域寻找并迁移机制，而
 
 - 清楚区分已核验历史案例与示意性类比；无法研究时不编造来源细节。Distinguish verified cases from illustration; never fabricate sources.
 - 明确失配条件：规模、激励、监管、资源、用户和时间跨度常会使迁移失效。Name mismatch conditions explicitly.
-- 价值取决于真实案例证据而非创意时，使用 `$deep-research`。Use `$deep-research` when evidence about real cases is needed.
+- 价值取决于真实案例证据而非创意时，使用 `deep-research`。Use `deep-research` when evidence about real cases is needed.

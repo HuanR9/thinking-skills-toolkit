@@ -7,7 +7,7 @@ description: "为模糊问题、学习任务、研究请求、决策或自我探
 
 ## 语言 / Language
 
-默认以用户当前使用的语言路由与说明：中文请求用中文，English requests use English。混合语言或要求双语时，用中英对照列出推荐路径和所需输入；Skill 名称保持 `$english-skill-name` 形式，以确保可直接调用。Match the user's language; keep canonical `$skill-name` invocations unchanged.
+默认以用户当前使用的语言路由与说明：中文请求用中文，English requests use English。混合语言或要求双语时，用中英对照列出推荐路径和所需输入；技能标识保持英文连字符形式，例如 `deep-research`；具体调用语法由当前 Agent 决定。Match the user's language; preserve canonical hyphenated skill identifiers, while invocation syntax depends on the host agent.
 
 ## 目标 / Goal
 
@@ -23,11 +23,11 @@ description: "为模糊问题、学习任务、研究请求、决策或自我探
 
 ## 路由边界 / Routing boundaries
 
-- 真正不清晰的问题路由至 `$socratic-questioning`，但不应强制每个请求都先澄清。Route genuinely unclear problems to `$socratic-questioning`, not every request.
-- 可界定事实主张路由至 `$fact-check`；实体、行业或历史研究路由至 `$deep-research`。Route bounded claims to fact-check and longitudinal investigations to deep research.
-- 用户提供的页面、产品、仪表盘或流程路由至 `$reverse-engineering`。Route supplied exemplars to `$reverse-engineering`.
-- 离散选择路由至 `$steelman-debate`；未经检验的关键假设路由至 `$minimum-experiment`。Route choices and pivotal assumptions appropriately.
-- 只有用户同意多轮个人探索后，才把职业/人生材料路由至 `$talent-discovery` 或 `$life-design`。Require opt-in before personal-exploration Skills.
+- 真正不清晰的问题路由至 `socratic-questioning`，但不应强制每个请求都先澄清。Route genuinely unclear problems to `socratic-questioning`, not every request.
+- 可界定事实主张路由至 `fact-check`；实体、行业或历史研究路由至 `deep-research`。Route bounded claims to fact-check and longitudinal investigations to deep research.
+- 用户提供的页面、产品、仪表盘或流程路由至 `reverse-engineering`。Route supplied exemplars to `reverse-engineering`.
+- 离散选择路由至 `steelman-debate`；未经检验的关键假设路由至 `minimum-experiment`。Route choices and pivotal assumptions appropriately.
+- 只有用户同意多轮个人探索后，才把职业/人生材料路由至 `talent-discovery` 或 `life-design`。Require opt-in before personal-exploration Skills.
 - 本次回复不得激活或开始执行下游 Skill。Do not activate or begin a downstream Skill in this response.
 
 只有两个相近 Skill 都合理时，才阅读[路由矩阵 / routing matrix](references/routing-matrix.md)。Read the routing matrix only when two nearby Skills appear plausible.

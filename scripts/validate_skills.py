@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the repository's local Codex Skill structure without dependencies."""
+"""Validate the repository's Agent Skills structure and OpenAI/Codex metadata without dependencies."""
 
 from __future__ import annotations
 

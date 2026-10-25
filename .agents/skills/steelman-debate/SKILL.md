@@ -27,4 +27,4 @@ description: "在判断前为每个已明确的选项或立场建立最强论证
 
 - 当证据、风险或可逆性不对称时，不强行平分权重。Do not force equal weight under asymmetry.
 - 不把价值取舍当事实争议，应如实点明价值冲突。Name value tradeoffs honestly.
-- 关键不确定性可检验时推荐 `$minimum-experiment`；论证依赖有争议事实时推荐 `$fact-check`。Recommend the appropriate follow-on Skill.
+- 关键不确定性可检验时推荐 `minimum-experiment`；论证依赖有争议事实时推荐 `fact-check`。Recommend the appropriate follow-on Skill.

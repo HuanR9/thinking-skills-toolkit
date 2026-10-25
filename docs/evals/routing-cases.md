@@ -1,6 +1,6 @@
 # 路由验收用例 / Router acceptance cases
 
-对于每个请求，`$problem-router` 都应推荐指定的首个 Skill、简要说明理由且不执行该 Skill。For each request, it should recommend the named first Skill, explain the route briefly, and not execute it.
+对于每个请求，`problem-router` 都应推荐指定的首个 Skill、简要说明理由且不执行该 Skill。For each request, it should recommend the named first Skill, explain the route briefly, and not execute it.
 
 | # | Request | Expected first Skill | Must not do |
 |---:|---|---|---|
